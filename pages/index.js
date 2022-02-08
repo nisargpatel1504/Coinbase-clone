@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard";
 
 export default function Home() {
   const { address, connectWallet } = useWeb3();
+  console.log(address)
   return (
     <Wrapper>
       {address ? (
